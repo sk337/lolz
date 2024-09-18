@@ -23,6 +23,7 @@ fn main() {
 
     let lol = transmute::<V3, Vector3D<f32, u32>>(normalized);
     println!("Transmuted vector: {:#?}", lol);
+    println!("{}", transmute::<u32, f32>(0x00ffffff))
 }
 
 fn normalize(v: &V3) -> V3 {
