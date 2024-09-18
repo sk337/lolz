@@ -1,0 +1,9 @@
+[package]
+name = "lolz"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cve-rs = "0.6.0"
+euclid = "0.22.11"
+obfstr = "0.4.3"
